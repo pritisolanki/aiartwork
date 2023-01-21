@@ -96,16 +96,28 @@ header, .section-two{
 
 .section-two-image-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding-bottom: 0.7em;
 }
 
 .feature-image{
-    width: 40%;
     border-radius: 0.8em;
+    margin-bottom: 1em;
 }
 
 footer{
     text-align: center;
     color: #5f29a3;
+}
+
+@media (min-width: 501px) {
+    .section-two-image-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .feature-image {
+        width: 48.8%;     
+    }
 }
