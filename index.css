@@ -1,11 +1,9 @@
 body{
-    font-size: 16px;
+    font-size: 18px;
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-
-/* typography */
 
 h1, h3{
     margin: 0;
@@ -13,7 +11,7 @@ h1, h3{
 
 h1{
     color: whitesmoke;
-    font-size: 36px;
+    font-size: 2.2em;
 }
 
 h2{
@@ -22,11 +20,11 @@ h2{
 
 h3{
     color: #d0aaff;
-    font-size: 20px;
+    font-size:1.2em;
 }
 
 p{
-    line-height: 23px;
+    line-height: 1.4em;
 }
 
 /* links */
@@ -41,8 +39,8 @@ a:hover, a:active{
 }
 
 .btn{
-    padding: 10px 19px;
-    border-radius: 4.6px;
+    padding: 1em 0.8em;
+    border-radius: 0.3em;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
@@ -69,10 +67,8 @@ a:hover, a:active{
     color: #2b238a;
 }
 
-/* layout */
-
 header, section, footer{
-    padding: 45px 0;
+    padding: 2.8em 0;
 }
 
 header, .section-two{
@@ -86,21 +82,25 @@ header, .section-two{
 .container{
     width: 62%;
     margin: 0 auto;
+    max-width: 60%;
 }
 
 .main-image{
     width:100%;
+    display: block;
+    margin: 0 auto 2em;
+    max-width: 40em;
 }
 
 .section-two-image-container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 0.7em;
 }
 
 .feature-image{
-    width: 30%;
-    border-radius: 4.6px;
+    width: 40%;
+    border-radius: 0.8em;
 }
 
 footer{
