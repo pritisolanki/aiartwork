@@ -44,6 +44,8 @@ a:hover, a:active{
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
+    margin-right: 0.5em;
+    margin-bottom:1em;
 }
 
 .btn-dark{
