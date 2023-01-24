@@ -43,9 +43,9 @@ a:hover, a:active{
     border-radius: 0.3em;
     font-weight: 500;
     text-decoration: none;
-    display: inline-block;
-    margin-right: 0.5em;
     margin-bottom:1em;
+    text-align: center;
+    display: block;
 }
 
 .btn-dark{
@@ -95,15 +95,20 @@ header, .section-two{
 }
 
 .section-two-image-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 0.7em;
+   display: flex;
+   flex-wrap: wrap;
+   gap:1em;
+  
+}
+
+.feature-item {
+    flex: 1 15em;
 }
 
 .feature-image{
     border-radius: 0.8em;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 footer{
@@ -111,13 +116,9 @@ footer{
     color: #5f29a3;
 }
 
-@media (min-width: 501px) {
-    .section-two-image-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .feature-image {
-        width: 48.8%;     
+@media (min-width:600px){
+    .btn {
+        display: inline-block;
+        margin-right: 0.5em;
     }
 }
